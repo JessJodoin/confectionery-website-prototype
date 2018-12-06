@@ -62,7 +62,6 @@ header div {
 .nav-head ul {
   display: flex;
   justify-content: space-around;
-  flex-basis: content;
 
   margin: 0;
   padding: 0;
@@ -74,8 +73,7 @@ header div {
 
 .nav-head ul li {
   margin: 0;
-  padding: .5em 0;
-  flex-basis: auto;
+  flex-grow: 0;
 
   font-size: 1.5rem;
   text-align: center;
@@ -84,10 +82,15 @@ header div {
 .nav-head ul li:nth-child(2) {
   border-right: 1px solid #333;
   border-left: 1px solid #333;
-  padding: .5em;
+}
+
+.nav-head ul li:nth-child(3) {
+  flex-grow: 1;
 }
 
 .nav {
+  display: block;
+  padding: .5em;
   text-decoration: none;
   color: #fff;
 }
@@ -111,10 +114,12 @@ header div {
 }
 
 .abt {
-  margin: 1em 0;
+  margin: 0;
   padding: 1em;
 
   border-bottom: 2px dotted #333;
+
+  font-style: italic;
 }
 
 .heading {
@@ -125,4 +130,19 @@ header div {
 
   padding: .5em 0;
   margin: 0 1em;
+}
+
+.top,
+.new {
+  margin: 0 1em;
+}
+
+h2 {
+  font-family: Righteous, sans-serif;
+  font-size: 1.75rem;
+}
+
+.t-img {
+  display: block;
+  width: 100%;
 }
