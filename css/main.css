@@ -194,12 +194,14 @@ h2 {
 
 .btn-ts {
   display: inline-block;
+  padding: .5em .75em;
+
   background-color: #ccc;
+  color: #333;
   border: 2px solid #555;
   border-radius: 7px;
-  padding: .5em .75em;
-  color: #333;
   text-decoration: none;
+
   font-size: 1em;
   font-weight: bold;
 }
@@ -208,4 +210,46 @@ h2 {
   background-color: #333;
   color: #fff;
   border: 2px solid #333;
+}
+
+.n-pro {
+  margin: 0 0 1em;
+  padding-bottom: 1em;
+
+  border-bottom: 2px dashed #eee;
+  text-align: center;
+}
+
+.n-pro:last-child {
+  border-bottom: none;
+}
+
+.link-pro {
+  text-decoration: none;
+}
+
+.n-img {
+  display: block;
+  width: 100%;
+}
+
+.btn-wrap {
+  margin: 1em 0;
+}
+
+.btn-new {
+  font-family: Righteous, sans-serif;
+  font-size: 1.1rem;
+
+  text-decoration: none;
+  color: #222;
+}
+
+.link-pro:hover .btn-new {
+  background-color: #ddd;
+  color: #333;
+  border: 2px solid #bbb;
+  border-radius: 12px;
+
+  padding: .5em;
 }
