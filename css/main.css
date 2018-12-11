@@ -99,6 +99,15 @@ header div {
   background-color: #333;
 }
 
+.current {
+  background-color: #888;
+}
+
+.info {
+  margin: 0;
+  padding: 0 .5em;
+}
+
 .tagline {
   margin: 0;
   padding: 1em .5em;
@@ -117,7 +126,7 @@ header div {
   margin: 0;
   padding: 1em;
 
-  border-bottom: 2px dotted #333;
+  border-bottom: 2px dotted #888;
 
   font-style: italic;
 }
@@ -137,6 +146,14 @@ header div {
   margin: 0 1em;
 }
 
+.t-pro {
+  margin: 0 0 1em;
+  padding-bottom: 1em;
+
+  border-bottom: 2px dashed #eee;
+
+}
+
 h2 {
   font-family: Righteous, sans-serif;
   font-size: 1.75rem;
@@ -145,4 +162,50 @@ h2 {
 .t-img {
   display: block;
   width: 100%;
+}
+
+.ts-text {
+  margin: 1em 0 0;
+  padding: .5em .8em;
+
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.ts-text h3 {
+  margin: 0 0 1em;
+
+  font-family: Righteous, sans-serif;
+  font-size: 1.3rem;
+}
+
+.ts-text p {
+  margin: 0 0 1em;
+}
+
+.ts-text div {
+  margin: 0 0 .5em;
+  text-align: right;
+}
+
+.txt {
+  font-weight: bold;
+}
+
+.btn-ts {
+  display: inline-block;
+  background-color: #ccc;
+  border: 2px solid #555;
+  border-radius: 7px;
+  padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.btn-ts:hover {
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #333;
 }
