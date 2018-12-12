@@ -296,7 +296,7 @@ header div {
   display: inline;
   position: absolute;
   align-items: center;
-  bottom: .5em;
+  bottom: 1em;
   left: 7em;
 }
 
@@ -357,9 +357,88 @@ header div {
     flex-grow: 1;
   }
 
+  .ts-text {
+    max-width: 38em;
+  }
+
   .copyright {
-    bottom: 1em;
     left: 10.5em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .t-pro {
+    max-width: 60em;
+    text-align: center;
+  }
+
+  .img-flex {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .ts-text {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 1em;
+    max-width: 16em;
+    text-align: left;
+  }
+
+  .new {
+    text-align: center;
+  }
+
+  .n-pro {
+    display: inline-block;
+    margin: 0 1em 1em;
+
+    max-width: 15em;
+  }
+
+  .n-pro:nth-child(4) {
+    border-bottom: none;
+  }
+
+  .n-img {
+    display: block;
+    margin: 0;
+    max-width: 13em;
+  }
+
+  .btn-wrap {
+    margin: 1em 0 0;
+  }
+
+  .btn-new {
+    font-size: .84rem;
+  }
+
+  .social {
+    flex-grow: 3;
+  }
+
+  .links {
+    flex-grow: 0;
+  }
+
+  .first-link {
+    margin-bottom: 1.2em;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .hide-link {
+    display: inline-block;
   }
 
 }
