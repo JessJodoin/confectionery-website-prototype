@@ -43,6 +43,7 @@ header div {
   padding: .5em 0;
   margin: 0 1em;
 }
+
 .name {
   margin: 0;
   text-align: center;
@@ -164,6 +165,12 @@ header div {
   margin: .5em 0;
 
   text-decoration: underline;
+}
+
+.img-flex {
+  display: block;
+  margin: 0;
+  width: 100%;
 }
 
 .t-img {
@@ -572,7 +579,6 @@ header div {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
   }
 
   header {
