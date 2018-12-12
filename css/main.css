@@ -259,6 +259,7 @@ header div {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  position: relative;
 
   background-color: #666;
   color: #fff;
@@ -280,4 +281,47 @@ header div {
 .soc-img {
   display: block;
   width: 100%;
+}
+
+.copyright {
+  display: inline;
+  position: absolute;
+  align-items: center;
+  bottom: .5em;
+  left: 7em;
+
+}
+
+.links {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+.footer-tlt {
+  margin: 0 0 .8em;
+
+  text-align: right;
+  font-family: Righteous, sans-serif;
+  font-size: 1.4rem;
+}
+
+.footer-list {
+  margin: 0 0 1em;
+  padding: 0;
+
+  text-align: right;
+  list-style-type: none;
+}
+
+.footer-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+
+.hide-link {
+  display: none;
 }
