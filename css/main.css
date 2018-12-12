@@ -161,6 +161,8 @@ header div {
   font-family: Righteous, sans-serif;
   font-size: 1.75rem;
 
+  margin: .5em 0;
+
   text-decoration: underline;
 }
 
@@ -456,6 +458,13 @@ header div {
     line-height: 1.5;
   }
 
+  .m-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45em;
+  }
+
   .top {
     text-align: center;
   }
@@ -555,6 +564,112 @@ header div {
 
   .copyright {
     left: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  header div {
+    padding: 0;
+  }
+
+  .name {
+    margin: 0 1.5em;
+  }
+
+  .nav-head {
+    display: block;
+  }
+
+  .nav-head ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    padding: 0;
+
+    border: none;
+  }
+
+  .nav-head ul li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .nav-head ul li:nth-child(2) {
+    border-right: none;
+    border-left: none;
+  }
+
+  .nav {
+    display: inline-block;
+  }
+
+  .m-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45em;
+  }
+
+  .t-pro:last-child {
+    display: inline-block;
+    margin: 0 1em 1em;
+  }
+
+  .n-pro {
+    margin: 0 1.8em 1em;
+    max-width: 90em;
+
+    border-bottom: none;
+  }
+
+  .n-img {
+    width: 100%;
+    max-width: 18em;
+  }
+
+  .wrap-1 {
+    left: .4em;
+  }
+
+  .wrap-2 {
+    left: 2em;
+  }
+
+  .wrap-3 {
+    left: .3em;
+  }
+
+  .wrap-4 {
+    left: .3em;
+  }
+
+  .btn-new {
+    padding: .3em;
+    font-size: .8em;
+
+    text-align: left;
+  }
+
+  .link-pro:hover .btn-new {
+    padding: .3em;
+  }
+
+  .copyright {
+    left: 38em;
   }
 
 }
